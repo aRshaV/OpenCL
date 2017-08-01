@@ -7,7 +7,7 @@ OpenCL examples
 > **NOTE:**
 > This code provides all platforms and devices, these will answer to function calls
 
-```c++
+```c
 cl_int status; //used for error checking
 
 // Retrieve the number of platforms
