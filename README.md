@@ -126,7 +126,7 @@ status = clEnqueueReadBuffer(cmdQueue, bufC, CL_TRUE, 0, datasize, C, 0, NULL, N
 **10. Release Resources**
 ```c
 clReleaseKernel(kernel);
-clReleaseProgram(porgram);
+clReleaseProgram(program);
 clReleaseCommandQueue(cmdQueue);
 clReleaseMemObject(bufA);
 clReleaseMemObject(bufB);
