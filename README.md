@@ -1,9 +1,9 @@
 # OpenCL
 
-#### OpenCL examples
+### OpenCL examples
 
-##### * Vector Addition
-##### * Histogram
+#### * Vector Addition
+#### * Histogram
  _____
  
 ## Main Steps to execute a simple OpenCL application
