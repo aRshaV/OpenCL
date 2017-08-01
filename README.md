@@ -4,6 +4,8 @@ OpenCL examples
 ## Main Steps to execute a simple OpenCL application
 
 **1. Discovering the platform and devices**
+> **NOTE:**
+> This code provides only one platform and one device (the first ones)
 
 ```c++
 cl_int status; //used for error checking
