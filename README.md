@@ -5,7 +5,7 @@ OpenCL examples
 
 **1. Discovering the platform and devices**
 > **NOTE:**
-> This code provides only one platform and one device (the first ones)
+> This code provides all platforms and devices, these will answer to function calls
 
 ```c++
 cl_int status; //used for error checking
@@ -31,4 +31,12 @@ devices = (cl_device_id*) malloc(numDevices*sizeof(cl_device_id));
 
 //Fill in the device
 status = clGetDeviceIDs(platform[0], CL_DEVICE_TYPE_ALL, numDevices, devices, NULL);
+```
+
+**2. Creating Context**
+
+```c
+// Create a context that includes all devices
+cl_context context = clCreateContext(NULL, numDevices, devices, NULL, NULL, &status);
+
 ```
