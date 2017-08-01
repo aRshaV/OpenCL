@@ -3,7 +3,7 @@
 ### OpenCL examples
 
 * Vector Addition
-#### Histogram
+* Histogram
  _____
  
 ## Main Steps to execute a simple OpenCL application
