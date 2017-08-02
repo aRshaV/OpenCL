@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2C2BC61C1F30EA62002B4BBB /* OpenCL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C2BC61B1F30EA62002B4BBB /* OpenCL.framework */; };
-		2C2BC61E1F30EAA4002B4BBB /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 2C2BC6071F30DF22002B4BBB /* main.c */; };
+		2CAA9A1B1F31494A00B2BDED /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 2CAA9A191F31494A00B2BDED /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,10 +33,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2C2BC6041F30DF22002B4BBB /* VecAdd */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = VecAdd; path = "/Users/arshav23/OpenCL/VecAddition/Vector Addition/build/Debug/VecAdd"; sourceTree = "<absolute>"; };
-		2C2BC6071F30DF22002B4BBB /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		2C2BC61B1F30EA62002B4BBB /* OpenCL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenCL.framework; path = System/Library/Frameworks/OpenCL.framework; sourceTree = SDKROOT; };
-		2C2BC61D1F30EA79002B4BBB /* DeviceInfo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DeviceInfo; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C2BC61D1F30EA79002B4BBB /* DeviceInfo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = DeviceInfo; path = "/Users/arshav23/OpenCL/Device List/build/Debug/DeviceInfo"; sourceTree = "<absolute>"; };
+		2CAA9A181F30EBD100B2BDED /* VecAdd */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = VecAdd; path = "/Users/arshav23/OpenCL/Device List/build/Debug/VecAdd"; sourceTree = "<absolute>"; };
+		2CAA9A191F31494A00B2BDED /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = main.c; path = DeviceInfo/main.c; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,14 +63,13 @@
 			children = (
 				2C2BC6061F30DF22002B4BBB /* DeviceInfo */,
 				2C2BC61A1F30EA62002B4BBB /* Frameworks */,
-				2C2BC61D1F30EA79002B4BBB /* DeviceInfo */,
 			);
 			sourceTree = "<group>";
 		};
 		2C2BC6061F30DF22002B4BBB /* DeviceInfo */ = {
 			isa = PBXGroup;
 			children = (
-				2C2BC6071F30DF22002B4BBB /* main.c */,
+				2CAA9A191F31494A00B2BDED /* main.c */,
 			);
 			name = DeviceInfo;
 			path = VecAdd;
@@ -101,7 +100,7 @@
 			);
 			name = VecAdd;
 			productName = VecAdd;
-			productReference = 2C2BC6041F30DF22002B4BBB /* VecAdd */;
+			productReference = 2CAA9A181F30EBD100B2BDED /* VecAdd */;
 			productType = "com.apple.product-type.tool";
 		};
 		2C2BC6121F30E9D1002B4BBB /* DeviceInfo */ = {
@@ -169,7 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C2BC61E1F30EAA4002B4BBB /* main.c in Sources */,
+				2CAA9A1B1F31494A00B2BDED /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,6 +389,7 @@
 				2C2BC60B1F30DF22002B4BBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2C2BC6171F30E9D1002B4BBB /* Build configuration list for PBXNativeTarget "DeviceInfo" */ = {
 			isa = XCConfigurationList;
@@ -398,6 +398,7 @@
 				2C2BC6191F30E9D1002B4BBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
